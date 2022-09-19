@@ -1,0 +1,471 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.clearfix::after{
+    clear: both;
+    content: "";
+    display: block;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+
+
+
+
+/* menu start ........................ */
+.fast-parente{
+    background-image: url(https://i.ibb.co/CtqGgn5/ia-200000019.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.26);
+
+}
+
+/*=====================
+     menu css star 
+=======================*/
+.nav-fast {
+    height: 60px;
+    background: rgba(0, 0, 0, 0.669);
+}
+
+.menu-img h2 {
+    width: 220px;
+    padding-top: 8px;
+    color: white;
+}
+
+.menu-icon{
+    color: #be701d;
+}
+
+
+.menu-section{
+   
+}
+span.h-colore {
+    color: #be701d;
+}
+
+.ul-parent {
+    list-style: none;
+    margin-left: 213px;
+    padding: 0;
+}
+.ul-parent li {
+    display: inline-block;
+    position: relative;
+}
+.ul-parent li a {
+    color: white;
+    display: block;
+    font-size: 15px;
+    padding: 0px 10px;
+    text-decoration: none;
+    line-height: 60px;
+    transition: 0.4s;
+}
+
+.ul-parent li a:hover{
+    color: #be701d;
+    width: 100%;
+    transform: scale(1);
+}
+.ul-parent li a::after{
+    content: "";
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: #be701d;
+    transition: 0.4s;
+   
+}
+.ul-parent li a:hover::after{
+    width: 100%;
+    
+}
+
+/* ===========================
+dropdown menu 1 part star 
+============================*/
+.ul-parent li .drop-1 {
+    position: absolute;
+    top: 62px;
+    left: 0;
+    width: 150px;
+    background-color: white;
+    padding: 0;
+    text-align: center;
+    transition: 0.4s;
+    opacity: 0;
+    visibility: hidden;
+    transform: scaleY(0);
+
+}
+.ul-parent li:hover .drop-1{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+}
+.ul-parent li .drop-1 li {
+    display: block;
+}
+.ul-parent li .drop-1 li a {
+    display: block;
+    color: black;
+    padding: 0;
+}
+
+
+.ul-parent li .drop-1 li a:hover{
+    background-color: #dddd;
+    color: #be701d;
+    transform: scaleX(1);
+
+}
+/* ===========================
+dropdown menu 1 part end.................... 
+============================*/
+
+
+/* ===========================
+dropdown menu 2 part star
+============================*/
+.ul-parent li .drop-2 {
+    position: absolute;
+    top: 62px;
+    left: 0;
+    width: 200px;
+    background: white;
+    padding: 0;
+    text-align: center;
+    transition: 0.4s;
+
+    opacity: 0;
+    visibility: hidden;
+    transform: scaleY(0);
+}
+.ul-parent li:hover .drop-2{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+}
+.ul-parent li .drop-2 li {
+    display: block;
+}
+.ul-parent li .drop-2 li a {
+    color: black;
+    display: block;
+}
+
+
+
+.ul-parent li .drop-2 li a:hover{
+    background-color: #dddd;
+    color: #be701d;
+}
+/* ===========================
+dropdown menu 2 part end......................
+============================*/
+
+/* ===========================
+dropdown menu 3 part star
+============================*/
+.ul-parent li .drop-3 {
+    position: absolute;
+    top: 62px;
+    left: 0;
+    width: 200px;
+    background: white;
+    padding: 0;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transform: scaleY(0);
+    transition: 0.4s;
+}
+.ul-parent li:hover .drop-3{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+}
+.ul-parent li .drop-3 li {
+    display: block;
+}
+.ul-parent li .drop-3 li a {
+    color: black;
+    display: block;
+}
+
+.ul-parent li .drop-3 li a:hover{
+    background-color: #dddd;
+    color: #be701d;
+}
+/* ===========================
+dropdown menu 3 part end....................
+============================*/
+
+
+
+/*=====================
+     menu css end........................... 
+=======================*/
+
+/* ====================
+banner-section star 
+======================*/
+.banner-section {
+    padding: 200px 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.528);
+}
+.banner-section h1 {
+    color: white;
+    font-size: 80px;
+    font-weight: 600;
+}
+.banner-section h2 {
+    color: white;
+    font-weight: 500;
+    padding: 25px 0;
+    position: relative;
+}
+.banner-section h2::after {
+    content: "";
+    position: absolute;
+    top: 44px;
+    left: 326px;
+    width: 8%;
+    height: 1px;
+    background-color: white;
+}
+.banner-section h2::before {
+    content: "";
+    position: absolute;
+    top: 44px;
+    left: 922px;
+    width: 8%;
+    height: 1px;
+    background-color: white;
+}
+.banner-section .banner-btn {
+    width: 170px;
+    height: 45px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    background: #be701d;
+    transition: 0.4s;
+}
+
+.banner-section .banner-btn:hover{
+    background-color: white;
+    color: #be701d;
+}
+/* ====================
+banner-section end ..........................
+======================*/
+
+
+/*============================
+    box service star      
+=============================*/
+.fast-web{
+    background-color: #f8f8f8;
+    padding-top: 50px;
+}
+
+.box-1 {
+    width: 300px;
+    background: white;
+    margin-left: 30px;
+    text-align: center;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.box-1:hover{
+    background-color: #e0d8d8;
+    color: black;
+}
+
+.box-1:hover img{
+    transform: rotateY(360deg);
+}
+
+
+.box-1 img {
+    padding: 30px 0;
+    transition: 0.5s;
+}
+
+.box-1 h4 {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 0 25px 0;
+}
+.box-1 p {
+    font-size: 19px;
+    font-weight: 400;
+    padding: 0 0 20px 0;
+    color: #7d7d7d;
+}
+.box-1 .box-btn {
+    margin: 0 0 30px 0;
+    width: 140px;
+    background: #be701d;
+    height: 45px;
+    border: none;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 7px;
+    transition: 0.4s;
+}
+/* .box-1:hover .box-btn {
+    background-color: #f60505;
+    color: #ffffff;
+    border-radius: 7px;
+} */
+.box-1:hover .box-btn{
+    background-color: white;
+    color:#be701d;
+    border-radius: 7px;
+}
+.box-btn:hover{
+    background-color: #000000 !important;
+    color: #f8f8f8 !important;
+}
+/*============================
+    box service end................. ....     
+=============================*/
+
+/* <!--==========================
+video continer start 
+===========================--> */
+.fast-ul {
+    margin-top: 300px;
+}
+.video {
+    width: 50%;
+    padding-left: 160px;
+}
+
+.video-service {
+    width: 50%;
+}
+.video-service h2 {
+    color: black;
+    font-weight: 600;
+    font-size: 35px;
+    margin-top: -10px;
+}
+.colorr{
+    color:#be701d;
+}
+.video-service p {
+    width: 450px;
+    padding: 12px 0 0px 0px;
+    color: black;
+    font-size: 15px;
+}
+details.detalis {
+    padding: 15px 0;
+}
+.video-service .btn-x {
+    width: 135px;
+    height: 45px;
+    background: black;
+    color: white;
+    border: none;
+    transition: 0.4s;
+}
+.video-service .btn-x:hover{
+    background-color: white;
+    color: #be701d;
+}
+/* <!--==========================
+video continer end 
+===========================--> */
+
+
+/* <!--======================
+fotter div start
+======================--> */
+.ghf {
+    margin-top: 50px;
+}
+.fotter-a {
+    width: 55%;
+    padding-left: 184px;
+    position: relative;
+    top: -750px;
+    left: 80px;
+}
+.fotter-a h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+.fotter-a p {
+    color: #7d7d7d;
+    padding: 20px 0;
+}
+
+.owo {
+    width: 500px;
+    height: 45px;
+    margin-bottom: 10px;
+    border: none;
+    padding: 10px;
+    box-shadow: 0 0 3px 0px rgba(0, 0, 0, 0.343);
+}
+input.mango {
+    width: 150px;
+    height: 50px;
+    background: #be701d;
+    border: none;
+    color: white;
+    transition: 0.4s;
+}
+input.mango:hover{
+    background-color: rgba(235, 230, 230, 0.867);
+    color: #be701d;
+}
+.mesageee{
+    width: 500px;
+    box-shadow: 0 0 3px 0px rgba(0, 0, 0, 0.343);
+    border: none;
+}
+
+.fote-img {
+    height: 843px;
+}
+.fote-img img {
+    width: 1450px;
+}
+/* <!--======================
+fotter div end..............................
+======================--> */
+
+.fotter {
+    background: #6d6d6d;
+    color: white;
+    height: 100px;
+    padding: 44px 100px;
+}
+.fote{}
+.fote p{}
+
+.icon-foter{}
+.sesh {
+    margin-left: 55px;
+}
